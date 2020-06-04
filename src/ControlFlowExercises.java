@@ -10,13 +10,21 @@ public class ControlFlowExercises {
         }
         System.out.println("");
 //            1B
-        int j = 0;
+        int j = 100;
         do {
             System.out.println(j);
-            j += 2;
-        } while (j <= 100);
+            j -= 5;
+        } while (j >= -10);
 
         System.out.println("");
+
+        long e = 2;
+
+        do{
+            System.out.println(e);
+            e*= e;
+        }while(e<1000000);
+
 
 //        1C
         for (int y = 5; y <= 15; y++) {
