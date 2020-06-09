@@ -1,6 +1,6 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
-import java.util.jar.JarOutputStream;
+
 
 public class MethodsExercises {
     public static int add(int num1, int num2){
