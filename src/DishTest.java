@@ -6,6 +6,9 @@ public class DishTest {
 //        dish1.setWouldRecommend(true);
         dish1.printSummary();
 
+        DishTools.shoutDishName(dish1);
+        DishTools.analyzeDishCost(dish1);
+        System.out.println(DishTools.flipRecommendation(dish1));
 
 
     }

@@ -19,6 +19,7 @@ public class Dish {
     }
 
     public boolean getRecommend(){
+
         return wouldRecommend;
     }
     public void setCost(int cost){
