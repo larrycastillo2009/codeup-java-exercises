@@ -7,6 +7,7 @@ public class ServerNameGernerator {
     }
 
     public static void main(String[] args) {
-        System.out.println(randomElem(adjectives) + "-" + randomElem(nouns));®
+        System.out.println("Your server today is: ");
+        System.out.println(randomElem(adjectives) + "-" + randomElem(nouns));
     }
 }
