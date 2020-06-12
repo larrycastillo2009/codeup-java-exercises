@@ -30,8 +30,5 @@ public class ArraysExercises {
         System.out.println(people2[3].getName());
 
 
-
-
-
     }
 }
