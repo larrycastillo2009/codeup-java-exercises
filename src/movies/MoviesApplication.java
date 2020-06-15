@@ -72,17 +72,10 @@ public class MoviesApplication {
     }
 
     private static void repeat() {
-        System.out.println("");
-        System.out.println("What would you like to do?");
-        System.out.println("");
-        System.out.println("0 - exit");
-        System.out.println("1 - view all movies");
-        System.out.println("2 - view movies in the animated category");
-        System.out.println("3 - view movies in the drama category");
-        System.out.println("4 - view movies in the horror category");
-        System.out.println("5 - view movies in the scifi category");
-        System.out.println("");
 
+        System.out.println("----------");
+        System.out.println("NAVIGATION");
+        System.out.println("0-exit 1-all 2-animated 3-drama 4-horror 5-scifi");
         System.out.println("Enter your choice: ");
         input in = new input();
         String userInput = in.getString();
