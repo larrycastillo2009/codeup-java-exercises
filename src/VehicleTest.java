@@ -5,6 +5,7 @@ public class VehicleTest {
         Vehicle Car = new Vehicle(true, 4, "Electric");
         Car Toyota = new Car(true,4,"fuel",35);
         Jet cessna = new Jet(true,2,"fuel",1000);
+        final int passengerConst = 4;
 
         System.out.println(Vehicle.toString());
         System.out.println("");
@@ -24,8 +25,8 @@ public class VehicleTest {
         System.out.println("");
 
         Vehicle[] vehicles = new Vehicle[3];
-        vehicles[0] = new Vehicle(true,4,"electric");
-        vehicles[1] = new Vehicle(true,4,"electric");
+        vehicles[0] = new Car(true,4,"electric",5);
+        vehicles[1] = new Jet(true,4,"electric",60);
         vehicles[2] = new Vehicle(true,4, "electric");
 
         Vehicle.onAll(vehicles);
