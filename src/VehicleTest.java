@@ -23,7 +23,12 @@ public class VehicleTest {
         cessna.takeOff();
         System.out.println("");
 
+        Vehicle[] vehicles = new Vehicle[3];
+        vehicles[0] = new Vehicle(true,4,"electric");
+        vehicles[1] = new Vehicle(true,4,"electric");
+        vehicles[2] = new Vehicle(true,4, "electric");
 
+        Vehicle.onAll(vehicles);
 
 
 

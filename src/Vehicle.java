@@ -53,7 +53,10 @@ public class Vehicle {
         System.out.println("Vehicle is turning on...");
     }
 
-    public void onAll(Vehicle[] arr){
+    public static void onAll(Vehicle[] arr){
+        for(Vehicle vehicle: arr){
+            vehicle.turnOn();
+        }
 
     }
 }
