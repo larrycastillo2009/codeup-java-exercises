@@ -18,8 +18,27 @@ public class Square extends Quadrilateral {
 //        return 4 * side;
 //    }
 
-    public Square(double length, double width) {
-        super(length, width);
+    public Square(double side) {
+        super(side, side);
     }
 
+    @Override
+    void setLength(double side) {
+        length =side;
+    }
+
+    @Override
+    void setWidth(double side) {
+        width = side;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return length * 4;
+    }
+
+    @Override
+    public double getArea() {
+        return length * width;
+    }
 }
